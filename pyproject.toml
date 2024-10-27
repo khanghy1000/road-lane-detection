@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "road-lane-detect"
+version = "0.1.0"
+description = ""
+authors = ["khanghy1000 <46063255+khanghy1000@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+opencv-python = "^4.10.0.84"
+numpy = "^2.1.2"
+matplotlib = "^3.9.2"
+pandas = "^2.2.3"
+moviepy = "^1.0.3"
+notebook = "^7.2.2"
+fastapi = {extras = ["standard"], version = "^0.115.3"}
+python-multipart = "^0.0.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

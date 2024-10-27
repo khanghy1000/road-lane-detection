@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lane Detection</title>
+    <script defer src="/static/index.js"></script>
+    <link rel="stylesheet" href="/static/lib/bulma/css/bulma.min.css">
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+
+    <div class="navbar-menu">
+        <div class="navbar-end">
+            <a class="navbar-item" href="/static/index.html">
+                Hình
+            </a>
+
+            <a class="navbar-item" href="/static/video.html">
+                Video
+            </a>
+        </div>
+    </div>
+</nav>
+
+
+<section class="section">
+    <div class="field is-grouped">
+
+        <div class="file marginless">
+            <label class="file-label">
+                <input class="file-input" type="file" id="imageInput" accept="image/*"/>
+                <span class="file-cta">
+                <span class="file-label"> Chọn hình </span>
+            </span>
+            </label>
+        </div>
+
+        <button id="submitBtn" class="button is-primary">Chạy</button>
+    </div>
+
+    <div class="columns">
+        <div class="column">
+            <img id="inputImg">
+        </div>
+        <div class="column">
+            <img id="resultImg">
+        </div>
+    </div>
+</section>
+
+<script>
+</script>
+</body>
+</html>
